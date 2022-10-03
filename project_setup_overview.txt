@@ -1,0 +1,46 @@
+1. create react app using -> 
+
+    npx create-react-app cloud-app
+
+2. install Tailwind -> 
+
+    npm install -D tailwindcss postcss autoprefixer
+
+    npx tailwindcss init -p
+
+## Edit tailwind.config.js file and add -> 
+
+    /** @type {import('tailwindcss').Config} */
+    module.exports = {
+    content: [
+        "./src/**/*.{js,jsx,ts,tsx}",
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+    }
+
+## Edit index.css file and add -> 
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+3. npm run build or npm start.
+
+4. Extension pack ->
+
+    Tailwind CSS IntelliSense
+
+    Reactjs code snippets
+
+    Auto Import
+
+5. setup hero icons
+ 
+    npm i @heroicons/react
+
+    npm i react-icons
+
+    npm install react-scroll
